@@ -1,7 +1,12 @@
 h1{
     text-align: center;
+    
 }
 
 body{
-    
+    background-color: lightcyan;
+}
+
+div{
+    text-align: center;
 }
