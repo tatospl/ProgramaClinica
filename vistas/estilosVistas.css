@@ -1,4 +1,4 @@
-h1{
+#tituloPrincipal{
     text-align: center;
     
 }
@@ -7,6 +7,16 @@ body{
     background-color: lightcyan;
 }
 
-div{
+.opciones{
+    text-align: center;
+}
+
+#tituloP{
+    text-align: center;
+}
+#tituloR{
+    text-align: center;
+}
+#tituloIS{
     text-align: center;
 }
