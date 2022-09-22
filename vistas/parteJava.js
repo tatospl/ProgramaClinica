@@ -4,8 +4,8 @@ function validar_formulario() {
     var password = document.formRegistro.password;
   
     var username_len = username.value.length;
-    if (username_len == 0 || username_len < 8) {
-      alert("Debes ingresar un username con min. 8 caracteres");
+    if (username_len == 0 || username_len < 5) {
+      alert("Debes ingresar un username con min. 5 caracteres");
       passid.focus();
       return false; //Para la parte dos, que los datos se conserven
     }
