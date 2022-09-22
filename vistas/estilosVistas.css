@@ -8,7 +8,7 @@ body{
 }
 
 .opciones{
-    text-align: center;
+    text-align: left;
 }
 
 #tituloP{
@@ -19,4 +19,33 @@ body{
 }
 #tituloIS{
     text-align: center;
+}
+
+#formularioRegistro{
+    text-align: center;
+}
+
+form{
+
+    background: #000046;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #1CB5E0, #5858b6);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #1CB5E0, #5858b6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        padding: 30px;
+        font-size: 30px;
+    
+}
+
+form input{
+    padding: 3px 10px;
+    border: 1px solid #d9d9d9 ;
+    border-radius: 3px;
+    margin: 8px 10px;
+    display: inline-block;
+}
+
+#botonEnviar{
+    border: 1px solid #d9d9d9 ;
+    border-radius: 3px;
+    margin: 8px 10px;
+   
 }
